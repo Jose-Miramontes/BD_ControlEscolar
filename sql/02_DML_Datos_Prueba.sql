@@ -1,10 +1,4 @@
--- ============================================================
---  SISTEMA DE GESTIÓN ESCOLAR - UAQ
---  Script 02: DML - Datos de Prueba Realistas
---  Base de Datos: Oracle Database 19c+
---  Descripción: Poblado de todas las tablas con datos
---               ficticios pero coherentes para pruebas.
--- ============================================================
+
 -- ORDEN DE INSERCIÓN (respeta dependencias FK):
 --   1. FACULTAD
 --   2. MATERIA
@@ -428,7 +422,3 @@ UNION ALL SELECT 'GRUPO',         COUNT(*) FROM GRUPO
 UNION ALL SELECT 'ALUMNO',        COUNT(*) FROM ALUMNO
 UNION ALL SELECT 'INSCRIPCION',   COUNT(*) FROM INSCRIPCION
 ORDER BY 1;
-
--- ============================================================
--- FIN DEL SCRIPT DML
--- ============================================================

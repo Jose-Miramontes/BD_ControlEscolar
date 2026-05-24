@@ -1,7 +1,3 @@
-# ============================================================
-# .gitignore - Sistema de Gestión Escolar UAQ
-# ============================================================
-
 # Archivos de configuración de Oracle SQL Developer
 .project
 *.jws
@@ -38,7 +34,7 @@ desktop.ini
 # Archivos temporales de SQL*Plus
 afiedt.buf
 
-# Credenciales (NUNCA subir contraseñas)
+# Credenciales
 credentials.sql
 connection.sql
 *.env
