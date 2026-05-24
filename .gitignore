@@ -1,0 +1,45 @@
+# ============================================================
+# .gitignore - Sistema de Gestión Escolar UAQ
+# ============================================================
+
+# Archivos de configuración de Oracle SQL Developer
+.project
+*.jws
+*.jpr
+*.jpx
+connections.xml
+
+# Logs de ejecución
+*.log
+*.log.*
+spool_*.txt
+
+# Archivos de exportación de datos (pueden contener datos sensibles)
+*.dmp
+*.exp
+*.bak
+
+# Archivos de herramientas de modelado
+*.mwb          # MySQL Workbench (si se usa para diagramas)
+*.vpp          # Visual Paradigm
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales de SQL*Plus
+afiedt.buf
+
+# Credenciales (NUNCA subir contraseñas)
+credentials.sql
+connection.sql
+*.env
+config_local.sql
